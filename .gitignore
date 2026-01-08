@@ -1,0 +1,14 @@
+# Global ignores
+node_modules/
+dist/
+
+# Env files (all folders)
+.env
+.env.*
+frontend/.env
+backend/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
