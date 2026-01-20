@@ -1,5 +1,6 @@
 "use client";
 import styles from "./page.module.css";
+import PricingSection from "./components/PricingSection/PricingSection";
 import Image from "next/image";
 
 export default function Page() {
@@ -46,7 +47,9 @@ export default function Page() {
          
         </section>
 
-        <section className={styles.events} id="services">
+  <PricingSection />
+
+  <section className={styles.events} id="services">
           <h2>Our Services</h2>
           <div className={styles["services-grid"]}>
             <article className={styles["service-card"]}>

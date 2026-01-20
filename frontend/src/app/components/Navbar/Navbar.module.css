@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   backdrop-filter: blur(6px);
-  background: linear-gradient(90deg, rgba(255,255,255,0.85), rgba(250,245,255,0.6));
+  background: #FFB86B;
   z-index: 40;
   border-bottom: 1px solid rgba(0,0,0,0.04);
   height: 72px;
@@ -31,7 +31,7 @@
 
 .navDesktop { display:flex; gap:18px; align-items:center }
 .navDesktop a { padding:8px 12px; border-radius:8px; color:#222; font-weight:500; text-decoration:none }
-.navDesktop a:hover { background: rgba(0,0,0,0.03) }
+.navDesktop a:hover { background: linear-gradient(90deg,#A67AFF,#ffb86b); }
 
 .burger { display: none; background: transparent; border: none }
 .bar { display:block; width:22px; height:2px; margin:4px 0; background:#333; border-radius:2px }

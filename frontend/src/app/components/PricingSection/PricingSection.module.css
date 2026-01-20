@@ -1,0 +1,117 @@
+.section {
+  padding: 3rem 1rem;
+  /* background: linear-gradient(180deg,#fff 0%, #f7fbff 100%); */
+  background-color: #7AFF8E;
+}
+
+.container {
+  width:90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 2.5rem; 
+  text-align: center; 
+  font-size: 2rem;
+}
+
+.badges {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.badge {
+  background: rgba(247, 239, 232, 0.4); 
+  padding:8px 12px; border-radius:999px; 
+  font-weight:600;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 8px 24px rgba(8,15,40,0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardHeader {
+  margin-bottom: 0.75rem;
+}
+
+.planName {
+  margin: 0;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.planDesc {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+}
+
+.prices {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin: 0.75rem 0;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #52ef69;
+}
+
+.cta {
+  color: white;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  background: linear-gradient(90deg,#A67AFF,#ffb86b);
+  border: none;
+}
+
+.features {
+  margin-top: 0.75rem;
+  list-style: none;
+  padding: 0;
+  color: #111827;
+  display: grid;
+  gap: 1rem;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .badges {
+    justify-content: center;
+  }
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card {
+    padding: 1.25rem;
+  }
+}
