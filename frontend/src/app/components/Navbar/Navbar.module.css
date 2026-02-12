@@ -9,12 +9,16 @@
 }
 
 .container {
-  max-width: 1100px;
   margin: 0 auto;
   padding: 12px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.container_left{
+  display: flex;
+  align-items: center;
+  gap:4rem;
 }
 .brand{
   display:flex;
@@ -48,6 +52,7 @@
 
 @media (max-width: 780px) {
   .navDesktop { display:none }
+  .container_right { display:none }
   .burger { display:block; z-index:130 }
   .mobileMenu { display:flex; position: fixed; left: 0; right: 0; top: 0; height: 100vh; background: linear-gradient(180deg,#fff,#fff); z-index: 9999; align-items:flex-start; justify-content:center; transition: transform 360ms cubic-bezier(.2,.9,.3,1); transform: translateY(100%); transform-origin: bottom; pointer-events: none }
   .mobileMenu.show { transform: translateY(0); pointer-events: auto; overflow: hidden }

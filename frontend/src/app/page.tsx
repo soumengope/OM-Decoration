@@ -1,6 +1,6 @@
 "use client";
+import Link from "next/dist/client/link";
 import styles from "./page.module.css";
-import PricingSection from "./components/PricingSection/PricingSection";
 import Image from "next/image";
 
 export default function Page() {
@@ -40,14 +40,12 @@ export default function Page() {
             </div>
 
             <div className={styles["hero-ctas"]}>
-              <a className={`${styles.btn} ${styles.primary}`} href="#booking">Book now</a>
+              <a className={`${styles.btn} ${styles.primary}`} href="#booking">Explore more</a>
               <a className={`${styles.btn} ${styles.ghost}`} href="#about">Learn more</a>
             </div>
           </div>
          
         </section>
-
-  <PricingSection />
 
   <section className={styles.events} id="services">
           <h2>Our Services</h2>
@@ -57,7 +55,7 @@ export default function Page() {
               <div className={styles["service-body"]}>
                 <h3>Wedding Ceremonies</h3>
                 <p>Full-scale wedding decor: arches, aisles, table florals and stage design for memorable ceremonies.</p>
-                <a className={`${styles.btn} ${styles.primary}`} href="#booking">Book Now</a>
+                <Link href="/wedding_ceremony" className={`${styles.btn} ${styles.primary}`}>Explore more</Link>
               </div>
             </article>
 
@@ -66,7 +64,7 @@ export default function Page() {
               <div className={styles["service-body"]}>
                 <h3>Engagement / Ring Ceremony</h3>
                 <p>Romantic and intimate setups focusing on the couple — table accents, floral backdrops and mood lighting.</p>
-                <a className={`${styles.btn} ${styles.primary}`} href="#booking">Book Now</a>
+                <Link href="/engagement_ceremony" className={`${styles.btn} ${styles.primary}`}>Explore more</Link>
               </div>
             </article>
 
@@ -75,7 +73,7 @@ export default function Page() {
               <div className={styles["service-body"]}>
                 <h3>Cars Decoration</h3>
                 <p>Elegant vehicle adornments for weddings, processions, and VIP arrivals.</p>
-                <a className={`${styles.btn} ${styles.primary}`} href="#booking">Book Now</a>
+                <Link href="/car_decoration" className={`${styles.btn} ${styles.primary}`}>Explore more</Link>
               </div>
             </article>
 
@@ -84,7 +82,7 @@ export default function Page() {
               <div className={styles["service-body"]}>
                 <h3>Birthday Parties</h3>
                 <p>Colorful, playful themes with centerpieces and balloon-flower combos tailored to your taste.</p>
-                <a className={`${styles.btn} ${styles.primary}`} href="#booking">Book Now</a>
+                <Link href="/birthday_parties" className={`${styles.btn} ${styles.primary}`}>Explore more</Link>
               </div>
             </article>
 
@@ -93,7 +91,7 @@ export default function Page() {
               <div className={styles["service-body"]}>
                 <h3>Baby First Eating Ceremony (Annaprashan)</h3>
                 <p>Delicate setups and themed florals to celebrate your baby's first milestones with family.</p>
-                <a className={`${styles.btn} ${styles.primary}`} href="#booking">Book NOw</a>
+                <Link  href="/annaprashan_decoration" className={`${styles.btn} ${styles.primary}`}>Explore more</Link>
               </div>
             </article>
 
@@ -102,7 +100,7 @@ export default function Page() {
               <div className={styles["service-body"]}>
                 <h3>Religious Functions / Puja / Festivals</h3>
                 <p>Traditional arrangements and mandap decor that respect customs and enhance the spiritual ambience.</p>
-                <a className={`${styles.btn} ${styles.primary}`} href="#booking">Book Now</a>
+                <Link href="/function_decoration" className={`${styles.btn} ${styles.primary}`} >Explore more</Link>
               </div>
             </article>
             
@@ -190,40 +188,40 @@ export default function Page() {
           <h2>Gallery</h2>
           <div className={styles.grid}>
             <div className={styles.tile}>
-              <img src="/galary/img01.jpg" alt="Gallery Image 1" />
+              <img src="/galary/puja001.jpg" alt="Gallery Image 1" />
             </div>
             <div className={styles.tile}>
-              <img src="/galary/img02.jpg" alt="Gallery Image 2" />
+              <img src="/galary/gate005.jpg" alt="Gallery Image 2" />
             </div>
             <div className={styles.tile}>
-              <img src="/galary/img03.jpg" alt="Gallery Image 3" />
+              <img src="/galary/car004.jpg" alt="Gallery Image 3" />
             </div>
             <div className={styles.tile}>
-              <img src="/galary/img04.jpg" alt="Gallery Image 4" />
+              <img src="/galary/wedding001.jpg" alt="Gallery Image 4" />
             </div>
             <div className={styles.tile}>
-              <img src="/galary/img05.jpg" alt="Gallery Image 5" />
+              <img src="/galary/gate001.jpg" alt="Gallery Image 5" />
             </div>
             <div className={styles.tile}>
-              <img src="/galary/img06.jpg" alt="Gallery Image 6" />
+              <img src="/galary/wedding012.jpg" alt="Gallery Image 6" />
             </div>
             <div className={styles.tile}>
-              <img src="/galary/img07.jpg" alt="Gallery Image 7" />
+              <img src="/galary/gate003.jpg" alt="Gallery Image 7" />
             </div>
             <div className={styles.tile}>
-              <img src="/galary/img08.jpg" alt="Gallery Image 8" />
+              <img src="/galary/wedding013.jpg" alt="Gallery Image 8" />
             </div>
             <div className={styles.tile}>
-              <img src="/galary/img09.jpg" alt="Gallery Image 9" />
+              <img src="/galary/gate002.jpg" alt="Gallery Image 9" />
             </div>
             <div className={styles.tile}>
-              <img src="/galary/img10.jpg" alt="Gallery Image 10" />
+              <img src="/galary/car003.jpg" alt="Gallery Image 10" />
             </div>
             <div className={styles.tile}>
-              <img src="/galary/img11.jpg" alt="Gallery Image 11" />
+              <img src="/galary/wedding011.jpg" alt="Gallery Image 11" />
             </div>
             <div className={styles.tile}>
-              <img src="/galary/img12.jpg" alt="Gallery Image 12" />
+              <img src="/galary/gate004.jpg" alt="Gallery Image 12" />
             </div>
           </div>
         </section>

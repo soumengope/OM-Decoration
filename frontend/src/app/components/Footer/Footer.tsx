@@ -26,7 +26,7 @@ export default function Footer() {
                 </div>
 
                 <div className={styles.smallprint}>
-                    <p>© 2025 OM Decoration — All rights reserved</p>
+                    <p>© 2024 OM Decoration — All rights reserved</p>
                 </div>
             </div>
         </footer>

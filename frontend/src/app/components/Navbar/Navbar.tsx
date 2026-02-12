@@ -52,18 +52,23 @@ export default function Navbar() {
     return (
         <header className={styles.header}>
             <div className={styles.container}>
-                <div className={styles.brand}>
-                    <img src="/omDecoration_logo.png" alt="OM Decoration Logo" width={50} />
-                    <p>OM Decoration</p>
-                </div>
+                <div className={styles.container_left}>
+                    <div className={styles.brand}>
+                        <img src="/omDecorationLogo.png" alt="OM Decoration Logo" width={50} />
+                        <p>OM Decoration</p>
+                    </div>
 
-                {/* desktop nav */}
-                <nav className={styles.navDesktop}>
-                    <Link href="#home">Home</Link>
-                    <Link href="#about">About Us</Link>
-                    <Link href="#contact">Contact Us</Link>
-                    <Link href="#events">Events</Link>
-                </nav>
+                    {/* desktop nav */}
+                    <nav className={styles.navDesktop}>
+                        <Link href="/">Home</Link>
+                        <Link href="#about">About Us</Link>
+                        <Link href="#contact">Contact Us</Link>
+                        <Link href="#events">Events</Link>
+                    </nav>
+                </div>
+                <div className={styles.container_right}>
+                    <Link href="/signup">signup/login</Link>
+                </div>
 
                         {/* mobile hamburger (hide while menu open) */}
                         {!open && (
@@ -85,7 +90,7 @@ export default function Navbar() {
                         <div className={`${styles.mobileMenu} ${styles.show}`} role="dialog" aria-modal="true">
                             <button className={styles.closeBtn} onClick={() => setOpen(false)} aria-label="Close menu">×</button>
                             <div className={styles.mobileMenuInner}>
-                                <a href="#home" onClick={() => setOpen(false)}>Home</a>
+                                <a href="/" onClick={() => setOpen(false)}>Home</a>
                                 <a href="#about" onClick={() => setOpen(false)}>About Us</a>
                                 <a href="#contact" onClick={() => setOpen(false)}>Contact Us</a>
                                 <a href="#events" onClick={() => setOpen(false)}>Events</a>

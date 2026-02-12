@@ -1,0 +1,29 @@
+.gallery { padding: 2rem;background-color: #7AFF8E; }
+.gallery h2{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+.grid { display: grid; grid-template-columns: repeat(4,1fr); gap:1rem; }
+.tile {background: linear-gradient(135deg,#ffd1e6,#fff3d9); border-radius: 10px;position: relative;}
+.tile img{width:100%;height:100%; object-fit: cover; border-radius: 10px; }
+.price{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color: white;
+    padding:0.2rem 0.5rem;
+    color: #000000;
+    border-radius: 5px;
+}
+
+@media (max-width: 980px) {
+  .grid { grid-template-columns: repeat(1,1fr); }
+}
