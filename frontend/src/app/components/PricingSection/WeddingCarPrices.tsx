@@ -38,7 +38,7 @@ export default function WeddingCarPrices() {
                   <li>✨ Neat & balanced styling</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
 
             <article className={styles.card}>
@@ -61,7 +61,7 @@ export default function WeddingCarPrices() {
                   <li>✨ Enhanced design detailing</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
             
              <article className={styles.card}>
@@ -84,7 +84,7 @@ export default function WeddingCarPrices() {
                   <li>✨ Unique, stylish & polished design</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
         </div>
       </div>

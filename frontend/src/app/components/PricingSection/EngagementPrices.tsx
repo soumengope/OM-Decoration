@@ -38,7 +38,7 @@ export default function EngagementPrices() {
                   <li>✨ Entry gate decoration</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
 
             <article className={styles.card}>
@@ -61,7 +61,7 @@ export default function EngagementPrices() {
                   <li>✨ Entry gate decoration (2+ gates)</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
 
             <article className={styles.card}>
@@ -86,7 +86,7 @@ export default function EngagementPrices() {
                   
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
             
              <article className={styles.card}>
@@ -110,7 +110,7 @@ export default function EngagementPrices() {
                   <li>✨ Entry gate (5+) & selfi setup</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
         </div>
       </div>

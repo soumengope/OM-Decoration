@@ -40,7 +40,7 @@ export default function FunctionPrices() {
                   <li>✨ Basic stage arrangement</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
 
             <article className={styles.card}>
@@ -64,7 +64,7 @@ export default function FunctionPrices() {
                   <li>✨ Stage cloth décor</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
             
              <article className={styles.card}>
@@ -88,7 +88,7 @@ export default function FunctionPrices() {
                   <li>✨ Decorative lighting</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
 
             <article className={styles.card}>
@@ -112,7 +112,7 @@ export default function FunctionPrices() {
                   <li>✨ Multiple decorative elements</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
         </div>
       </div>

@@ -7,7 +7,7 @@ export default function PricingSection() {
     <section className={styles.section} aria-labelledby="pricing-heading">
       <div className={styles.container}>
         <h2 id="pricing-heading" className={styles.title}>
-          Choose the Perfect Floral Package
+          Book Now the Perfect Floral Package
         </h2>
 
         <div className={styles.badges} role="list">
@@ -28,7 +28,7 @@ export default function PricingSection() {
                 <span className={styles.price}>₹5,000</span>
               </div>
 
-              <button className={styles.cta} type="button">Choose</button>
+              <button className={styles.cta} type="button">Book Now</button>
 
               <ul className={styles.features}>
                   <li>✨ Fresh flower decoration</li>
@@ -49,7 +49,7 @@ export default function PricingSection() {
                 <span className={styles.price}>₹8,000</span>
               </div>
 
-              <button className={styles.cta} type="button">Choose</button>
+              <button className={styles.cta} type="button">Book Now</button>
 
               <ul className={styles.features}>
                   <li>✨ Premium fresh flowers</li>
@@ -70,7 +70,7 @@ export default function PricingSection() {
                 <span className={styles.price}>₹15,000</span>
               </div>
 
-              <button className={styles.cta} type="button">Choose</button>
+              <button className={styles.cta} type="button">Book Now</button>
 
               <ul className={styles.features}>
                   <li>✨ Premium & exotic flowers</li>
@@ -91,7 +91,7 @@ export default function PricingSection() {
                 <span className={styles.price}>₹25,000</span>
               </div>
 
-              <button className={styles.cta} type="button">Choose</button>
+              <button className={styles.cta} type="button">Book Now</button>
 
               <ul className={styles.features}>
                   <li>✨ Luxury floral arrangements</li>

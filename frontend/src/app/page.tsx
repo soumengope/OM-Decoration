@@ -2,8 +2,26 @@
 import Link from "next/dist/client/link";
 import styles from "./page.module.css";
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Page() {
+  const [name, setName] = useState("");
+  const [event, setEvent] = useState("");
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const message = `Hello, I want to book an event.%0A
+    Name: ${name}%0A
+    Event: ${event}`;
+
+    const whatsappNumber = "916295910343";
+
+    const url = `https://wa.me/${whatsappNumber}?text=${message}`;
+
+    window.open(url, "_blank");
+  };
+
   return (
     <div>
       <main>
@@ -167,19 +185,36 @@ export default function Page() {
 
         <section className={styles.booking} id="booking">
           <h2>Book an Event</h2>
-          <form className={styles["booking-form"]} action="#" onSubmit={(e) => e.preventDefault()}>
+          <form className={styles["booking-form"]} action="#" onSubmit={handleSubmit}>
             <div className={styles.row}>
-              <input placeholder="Name" required />
-              <input placeholder="Phone" required />
+              <input
+                type="text"
+                placeholder="Your Name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+              />
             </div>
-            <div className={styles.row}>
-              <input placeholder="Email" type="email" required />
-              <input placeholder="Event Date" type="date" required />
-            </div>
-            <textarea placeholder="Tell us about your event" rows={4} />
+            <select
+              className={styles.selectItem}
+              value={event}
+              onChange={(e) => setEvent(e.target.value)}
+              required
+            >
+              <option value="">Select Event</option>
+              <option>Wedding</option>
+              <option>Car Decoration</option>
+              <option>Engagement</option>
+              <option>Birthday</option>
+              <option>Annaprashan</option>
+              <option>Puja / Festival</option>
+            </select>
+            
             <div className={`${styles.row} ${styles.actions}`}>
-              <button className={`${styles.btn} ${styles.primary}`} type="submit">Request Quote</button>
-              <button className={`${styles.btn} ${styles.ghost}`} type="button">Call us</button>
+              <button className={`${styles.btn} ${styles.ghost}`} type="submit">Send on WhatsApp</button>
+              <button className={`${styles.btn} ${styles.ghost}`} type="button">
+                <a href="tel:+916295910343">Call us</a>
+              </button>
             </div>
           </form>
         </section>

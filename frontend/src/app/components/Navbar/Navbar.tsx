@@ -66,7 +66,7 @@ export default function Navbar() {
                         <Link href="#events">Events</Link>
                     </nav>
                 </div>
-                <div className={styles.container_right}>
+                <div className={styles.container_right} style={{display: "none"}}>
                     <Link href="/signup">signup/login</Link>
                 </div>
 

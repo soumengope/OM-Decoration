@@ -39,7 +39,7 @@ export default function AnnaprashanPrices() {
                   <li>✨ Entry Gate decoration</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
 
             <article className={styles.card}>
@@ -64,7 +64,7 @@ export default function AnnaprashanPrices() {
                   <li>✨ Entry Gate decoration</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
             
              <article className={styles.card}>
@@ -88,7 +88,7 @@ export default function AnnaprashanPrices() {
                   <li>✨ Baby's bath tub decoration</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
 
             <article className={styles.card}>
@@ -113,7 +113,7 @@ export default function AnnaprashanPrices() {
                   <li>✨ Grand entry setup</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
         </div>
       </div>

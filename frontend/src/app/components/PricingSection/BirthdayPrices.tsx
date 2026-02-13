@@ -39,7 +39,7 @@ export default function PricingSection() {
                   <li>✨ Cake table decoration</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
 
             <article className={styles.card}>
@@ -62,7 +62,7 @@ export default function PricingSection() {
                   <li>✨ Cake table styling</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
 
             <article className={styles.card}>
@@ -85,7 +85,7 @@ export default function PricingSection() {
                   <li>✨ Decorative props</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
 
           <article className={styles.card}>
@@ -108,7 +108,7 @@ export default function PricingSection() {
                   <li>✨ Entry gate & photo booth setup</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
         </div>
       </div>

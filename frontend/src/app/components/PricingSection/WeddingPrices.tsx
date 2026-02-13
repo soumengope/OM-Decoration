@@ -40,7 +40,7 @@ export default function PricingSection() {
                   <li>✨ Basic wedding car decoration</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
 
             <article className={styles.card}>
@@ -64,7 +64,7 @@ export default function PricingSection() {
                   <li>✨ Basic wedding car decoration</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
 
             <article className={styles.card}>
@@ -89,7 +89,7 @@ export default function PricingSection() {
                   
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
             
              <article className={styles.card}>
@@ -114,7 +114,7 @@ export default function PricingSection() {
                   <li>✨ Luxury wedding car decoration</li>
               </ul>
 
-            <button className={styles.cta} type="button">Choose</button>
+            <button className={styles.cta} type="button">Book Now</button>
             </article>
         </div>
       </div>
